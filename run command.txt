@@ -1,0 +1,33 @@
+make virtual environment named virenv :
+$python -m venv virenv
+
+
+activate virtual environment named virenv:
+$virenv\Scripts\activate 
+
+
+make requirements.txt file : 
+$pip freeze > requirements.txt
+
+
+run project : 
+$python FaceDetectionMain.py
+
+
+run project for live camera: 
+$python FaceDetectionModule.py
+
+run project for live download video from youtube and run for the project without delete after completing project
+$python FaceDetectionTest.py
+
+
+run project for live download video from youtube and run for the project without delete after completing project
+$python FaceDetectionTest2.py
+
+
+run project for 
+live download video from youtube
+make a folder for "download video content"
+store "output folder" as process video
+$python FaceDetectionTest.py
+
